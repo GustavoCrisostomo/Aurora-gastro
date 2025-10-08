@@ -70,4 +70,51 @@ h1{
     
 }
 
+.section-differences{
+    display: flex;
+    flex-direction: column; /*  Deixar em coluna os elementos */
+    align-items: center;
+    background-color: var(--color-primary-orange-10);
+    justify-content: space-around;
+    padding: 60px 0px;
+    gap: 40px;
+   
+}
+
+
+.differences-cards{
+    display: flex;
+    flex-direction: column; /*  Deixar em coluna os elementos */
+    align-items: center;
+    gap:10px;
+    padding: 20px 20px;
+    border: 1px solid var(--color-secondary-l-gray);
+    border-radius: 10px;
+    width: 257PX;
+    height: 260PX;
+    text-align: center;
+
+}
+
+ .differences-cards h3{
+    font-size: var(--font-headline-h3-size);
+    font-family: var( --font-title);
+    width: 181px;
+}
+
+.differences-cards-container{
+    display: flex;
+    gap:70px;   
+}
+
+.differences-cards p{
+    font-size: var( --font-body-size);
+    color: var( --color-secondary-l-gray);
+    font-family: var(--font-body);
+    width: 227px; /* Largura */
+    line-height: 30px;
+   
+}
+
+
 
