@@ -117,4 +117,37 @@ h1{
 }
 
 
+.section-chef{
+    display: flex;
+    justify-content: center;
+    gap: 60px;
+    align-items: center;
+    padding:60px 0px;
+}
+
+.content-chef{
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    
+}
+
+.content-chef h2{
+    width: 433px;
+    line-height: 60px;
+    font-family: var(--font-title);
+    font-size: var(--font-headline-h2-size);
+}
+
+.content-chef p {
+    font-family: var(--font-body);
+    font-size: var(--font-body-size);
+    color: var(--color-secondary-l-gray);
+    width: 503px;
+    line-height: 30px;
+
+
+}
+
+
 
