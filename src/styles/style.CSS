@@ -81,6 +81,10 @@ h1{
    
 }
 
+.section-differences h2 {
+    font-family: var(--font-title);
+    font-size: var(--font-headline-h2-size);
+}
 
 .differences-cards{
     display: flex;
@@ -117,4 +121,91 @@ h1{
 }
 
 
+.section-chef{
+    display: flex;
+    justify-content: center;
+    gap: 60px;
+    align-items: center;
+    padding:60px 0px;
+}
 
+.content-chef{
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    
+}
+
+.content-chef h2{
+    width: 433px;
+    line-height: 60px;
+    font-family: var(--font-title);
+    font-size: var(--font-headline-h2-size);
+}
+
+.content-chef p {
+    font-family: var(--font-body);
+    font-size: var(--font-body-size);
+    color: var(--color-secondary-l-gray);
+    width: 503px;
+    line-height: 30px;
+
+
+}
+
+.section-featured-dishes{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 25px;
+    padding: 60px 0px;
+    background-color: var(--color-primary-orange-10);
+    width: 1512px 748px;
+    
+    
+
+}
+
+.container-cards-dishes{
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    padding-top: 101px;
+
+}
+
+.cards-dishes{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 16px;
+    width: 300px;
+    background-color: var(--color-secondary-white);
+    border: 1px solid #d3d3d3;
+    border-radius: 20px 5px;
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.09);/* propriedade que coloca sombra no elemento */
+    text-align: center;
+    padding: 123px 15px 45px 25px;
+    position: relative;
+
+}
+
+.cards-dishes img{
+    position:absolute; /* absolute: ignora o elemento */
+    top: -101px;
+}
+
+.cards-dishes h3{
+    font-size: var(--font-headline-h3-size);
+    font-family: var(--font-title);
+    width: 174px;
+   
+}
+
+.cards-dishes p {
+     font-size: var(--font-body-size);
+    font-family: var(--font-body);
+    line-height: 30px;
+    color: var(--color-secondary-l-gray);
+    width: 271px;
+}
