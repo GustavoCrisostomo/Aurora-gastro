@@ -194,7 +194,7 @@ h1{
 .container-cards-dishes{
     display: flex;
     justify-content: center;
-    gap: 25px;
+    gap: 30px;
     padding-top: 101px;
 
 }
@@ -371,14 +371,30 @@ form{
     width: 220px;
 }
 
-.box-input textarea{
+textarea{
     border: 1px solid #5c6574;
     height: 100px;
     width: 450px;
     border-radius: 5px;
 }
 
+
+
 form button{
     align-self: flex-start;
     cursor: pointer;
+}
+
+.section-maps{
+    display: flex;
+    justify-content: center;
+    background-color: var(--color-primary-orange-10);
+    padding: 60px 0px;
+
+}
+
+.section-maps iframe {
+
+    width: 90%; /* COBRE A PORCETANGEM DA SEÇÃO  */
+    height: 60vh; /* OCUPA O MONITOR */
 }
